@@ -3,9 +3,9 @@
 	background-image: url(../Images/gra.jpg);
 	/*background-color: #b85aee;*/
 }	
-.container {
-	/*display: flex;*/
-}
+/*.container {
+	display: flex;
+}*/
 .text1 {
 	color: white;
 	opacity: 0.9;

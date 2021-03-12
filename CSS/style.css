@@ -1,0 +1,183 @@
+.page1 {
+	/*background-image: linear-gradient(#fffdd0, black);*/
+	background-image: url(../images/gra.jpg);
+	/*background-color: #b85aee;*/
+}	
+.container {
+	/*display: flex;*/
+}
+.text1 {
+	color: white;
+	opacity: 0.9;
+	font-size: 30px;
+	/*background-color: black;*/
+	/*margin-bottom: 20px;*/
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+    
+}
+.text2 {
+	display: inline-block;
+	color: #b85aee;
+	font-size: 30px;
+    font-weight: bold;
+    /*margin-bottom: 20px;*/
+    padding-left: 130px;
+    opacity: 0.8;
+}
+.text3 {
+	display: inline-block;
+	/*margin-left: 600px;*/
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.9;
+	/*margin-top: 20px;*/
+	padding-left: 130px;
+	vertical-align: middle;
+}
+.text4 {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	/*vertical-align: middle;*/
+	padding-left: 150px;
+	margin-top: 20px;
+}
+.text5 {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 100px;
+}
+.text6 {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+.logo {
+	height: 50px;
+	/*margin-top: 10px;*/
+	vertical-align: middle;
+	float: left;
+}
+.logo2 {
+	height: 50px;
+	/*margin-top: 10px;*/
+	vertical-align: middle;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.slogans-wraper {
+	/*quotes: "text4" "text1";*/
+	/*background-image: url(../images/flo.png)*/
+	/*display: inline-block;*/
+	/*margin-left: 500px;*/
+	/*background-image: url(../images/wall.jpg);*/
+	border: 10px solid white;
+    background-color: #007251;
+    opacity: 0.7;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    /*vertical-align: middle;*/
+}
+.nav-a {
+	color: white;
+	float: right;
+}
+.H {
+	background-image: linear-gradient(white, #b85aee, white);
+}
+
+.text7 {
+	background-image: linear-gradient(white, #b85aee, white);
+}
+
+.image1 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images2 {
+	display: inline-block;
+	margin-left: 200px;
+}
+.image5 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image6 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.Beauty {
+	display: inline-block;
+	vertical-align: middle;
+}*/
+/*.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}*/
+.audio1 {
+	width: 200px;
+	display: inline-block;
+	margin-top:10px;
+}
+.sidebar {
+	float: right;
+}
+.text7 {
+     font-size: 20px;
+     color: #007251;
+     font-weight: bold;
+     opacity: 0.8;
+}
+.contactinfo {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Tel {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.email {
+    text-align: center;
+}
+.aboutus {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	color: #b85aee;
+	font-weight: bold;
+	opacity: 0.8;
+	width: 700px;
+}
+.F {
+	margin-top: 15%;
+	background-image: linear-gradient(white, #b85aee, white);
+	color: #007251;
+	font-size: 20px;
+}

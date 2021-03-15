@@ -105,37 +105,6 @@
 .text7 {
 	background-image: linear-gradient(white, #b85aee, white);
 }
-
-/*.image1 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.images2 {
-	display: inline-block;
-	margin-left: 200px;
-}
-.image5 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.image6 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-/*.Beauty {
-	display: inline-block;
-	vertical-align: middle;
-}*/
-/*.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}*/
 .audio1 {
 	width: 200px;
 	display: inline-block;

@@ -158,7 +158,7 @@
 }
 .slideshow-container {
 	position: relative;
-	margin: auto;
+	margin: 0 auto;
 }
 .fade {
   animation-name: fade;

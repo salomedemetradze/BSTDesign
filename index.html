@@ -14,20 +14,37 @@
           <a href="index.html">
            <img class="logo" src="Images/wedd.png" alt="logo">
           </a>
-         <!--  <div class="Beauty"> -->
-            <h1 class="text1"> Beauty In Small Things </h1>
-            <h2 class="text2"> სილამაზე დეტალებში  </h2>
-            <h2 class="text3"> La Bellezza Nei Detaglli </h2>
-          <!-- </div> -->
+          <div class="slideshow">
+            <div class="slides">
+            <h1> Beauty In Small Things </h1>
+          </div>
+          <div class="slides">
+            <h2> სილამაზე დეტალებში  </h2>
+          </div>
+          <div class="slides">
+            <h2> La Bellezza Nei Detaglli </h2>
+          </div>
+          </div>
           <a> <img class="logo2" src="Images/wedd.png" alt="logo"> </a>
           <div class="clear"> </div>
         </div>
-       
-        <p class="text4"> ორიგინალური სტილი </p>
-        <p class="text5">  ინდივიდუალიზმი </p>
-        <p class="text6"> სილამაზე თითოეულ დეტალში</p>
-       
-       
+          <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  document.getElementByClassName("slides").style.animationTimingFunction = "linear"
+}
+</script>
     <div class="sidebar">
                <nav class="nav-a-wraper">
                  <ul> 
@@ -36,10 +53,8 @@
                    <a href="#" class="w3-bar-item w3-button"> <li> გალერეა </li> </a>
                    <a href="#" class="w3-bar-item w3-button"> <li> სიახლეები </li> </a>
                    <a href="#" class="w3-bar-item w3-button"> <li> სერვისები </li> </a>
-      
-                <!--    <a href="#"> <li> ერთი დღე როგორც დღესასწაული </li> </a> -->
                  </ul>
-                  <div class="clear"> </div>
+                 <div class="clear"> </div>
                </nav>
      </div>
    <!--   <script>
@@ -57,19 +72,22 @@ function w3_close() {
     </header>
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <img src="Images/image-1.jpg" alt="weddingdress">
+        <img class="image1" src="Images/image-1.jpg" alt="weddingdress">
+        <p class="text4"> ორიგინალური სტილი </p>
        </div>
         <div class="mySlides fade">
          <img src="Images/image-2.jpg" alt="weddingdress">
        </div>
        <div class="mySlides fade">
          <img  src="Images/image-3.jpg" alt="weddingdress">
+         <p class="text5">  ინდივიდუალიზმი </p>
        </div>
        <div class="mySlides fade">
          <img  src="Images/image-4.jpg" alt="weddingdress">
        </div>
        <div class="mySlides fade">
         <img src="Images/image-5.jpg" alt="weddingdress">
+        <p class="text6"> სილამაზე თითოეულ დეტალში</p>
       </div>
       <div class="mySlides fade">
         <img src="Images/image-6.jpg" alt="weddingdress">
@@ -94,17 +112,16 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}  
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
+  document.getElementByClassName("mySlides").style.animationTimingFunction = "linear"
 }
 </script>
-
-    <!-- <p> იგრძენით თავი განსაკუთრებულად თქვენ დღეს </p> -->
     <footer class="text7"> 
        <h3 class="contactinfo"> საკონტაქტო ინფორმაცია: </h3>
        <ul>
